@@ -1,0 +1,166 @@
+body {
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.score {
+    border: 1px white solid;
+    border-radius: 10px;
+    background-color: white;
+    height: 100px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreZebra {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#scoreLion {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#zebra {
+    width: 70px;
+    height: 70px;
+    left: 10px;
+    top: 10px;
+}
+
+#lion {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    right: 10px;
+    top: 10px;
+}
+
+.buttonReset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    background-color: rgb(152, 192, 154);
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.board {
+    display: flex;
+    position: relative;
+}
+
+.slot {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.hole {
+    height: 80px;
+    width: 80px;
+    border: 40px solid rgb(88, 105, 92);
+    transform: translate(-30px, -30px);
+    border-radius: 50%;
+}
+
+.player-1 {
+    background-color: rgb(240, 223, 146);
+    background-image: url("zebra2.png");
+    background-repeat: no-repeat;
+    background-position: 20px;
+    background-size: 70px 70px;
+}
+
+.player-2 {
+    background-color: pink;
+    background-image: url("lion2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px 70px;
+}
+
+.board .column:hover {
+    border: rgb(133, 146, 136);
+    filter: brightness(80%);
+}
+
+#coin {
+    top: 0px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.winner {
+    border: 1px white solid;
+    border-radius: 10px;
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.tie {
+    border: 1px white solid;
+    border-radius: 10px;
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.buttonClose {
+    float: right;
+    margin: 10px;
+    height: 25px;
+    width: 25px;
+    align-items: center;
+}
+
+.buttonNewGame {
+    position: relative;
+    float: bottom;
+    margin: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
