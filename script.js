@@ -121,6 +121,12 @@ console.log("SANITY CHECK", $);
                                             columns.off();
                                             resetAll();
                                         });
+                                        buttonNewGame.on("click", function () {
+                                            resetAll();
+                                            tie.off();
+                                            tie.css({ display: "none" });
+                                            waitForEvent();
+                                        });
                                     }
                                 }
                             }
