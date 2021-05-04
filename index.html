@@ -10,8 +10,8 @@
         <div class="score">
             <img id="zebra" src="zebra2.png" />
             <p id="scoreZebra">Player 1: 0</p>
-            <img id="lion" src="lion2.png" />
             <p id="scoreLion">Player 2: 0</p>
+            <img id="lion" src="lion2.png" />
         </div>
         <div>
             <button class="buttonReset">Reset Score</button>
@@ -19,13 +19,16 @@
     </header>
     <body>
         <div class="winner">
-            <button class="buttonClose">x</button>
-            <button class="buttonNewGame">Start new Game</button>
-            <p id="messageWinner"></p>
+            <div class="message">
+                <button class="buttonClose">x</button>
+                <p id="messageWinner"></p>
+                <button class="buttonNewGame">Start new Game</button>
+            </div>
         </div>
         <div class="tie">
             <button class="buttonClose">x</button>
             <p id="messageTie"></p>
+            <button class="buttonNewGame">Start new Game</button>
         </div>
 
         <div class="game-container">
