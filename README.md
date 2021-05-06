@@ -1,5 +1,5 @@
 # connect-4
 
-SAFARI CONNECT-4
+**SAFARI CONNECT-4** :lion: :zebra:
 
-Web version of Connect-4 game, where 2 users 
+Web version of Connect-4 game, using JavaScript/jQuery.
