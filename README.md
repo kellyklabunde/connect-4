@@ -3,3 +3,5 @@
 **SAFARI CONNECT-4** :lion: :zebra:
 
 Web version of Connect-4 game, using JavaScript/jQuery.
+
+![connect-4 demonstration](images/Connect-4.gif)
